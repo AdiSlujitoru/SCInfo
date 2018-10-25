@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class FestivalGate {
-
-	LinkedList<Tickets> list = new LinkedList<>();
+	private TicketType t = new TicketType();
+	private LinkedList<Tickets> list = new LinkedList<>();
 	private List<Tickets> l1 = new LinkedList<>();
 	private List<Tickets> l2 = new LinkedList<>();
 	private List<Tickets> l3 = new LinkedList<>();
@@ -34,7 +34,7 @@ public class FestivalGate {
 	}
 
 	private void filter(FestivalAttendeeThread p) {
-		TicketType t = new TicketType();
+		
 		if (p.giveTicket() == t.list[0]) {
 			l1.add(p.giveTicket());
 		}
