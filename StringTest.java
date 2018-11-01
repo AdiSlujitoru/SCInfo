@@ -93,9 +93,7 @@ public class StringUtils {
 	}
 	
 	public String space(String s) {
-		String s0=s.replaceAll("\\s", "");
-		
+		String s0=s.replaceAll("\\s", "");		
 		return s0;
-	}	
-	
+	}		
 }
