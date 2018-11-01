@@ -1,5 +1,5 @@
 
-public class StringTest {
+public class StringUtils {
 	public String numbers(String s) {
 		String s0=s;
 		
